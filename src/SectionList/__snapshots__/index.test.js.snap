@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List renders correctly 1`] = `
+<Styled(View)
+  flexGrow={1}
+  flexShrink={1}
+  position="relative"
+>
+  <Styled(Component)
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    scrollEventThrottle={16}
+    showsVerticalScrollIndicator={false}
+    style={
+      Object {
+        "flexGrow": 1,
+      }
+    }
+  />
+  <Scrollbar
+    height={0}
+    opacity={0}
+    positionRight="2px"
+    positionScroll={0}
+    width={3}
+  />
+</Styled(View)>
+`;
+
+exports[`List renders dark theme correctly 1`] = `
+<Styled(View)
+  flexGrow={1}
+  flexShrink={1}
+  position="relative"
+>
+  <Styled(Component)
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    scrollEventThrottle={16}
+    showsVerticalScrollIndicator={false}
+    style={
+      Object {
+        "flexGrow": 1,
+      }
+    }
+  />
+  <Scrollbar
+    height={0}
+    opacity={0}
+    positionRight="2px"
+    positionScroll={0}
+    width={3}
+  />
+</Styled(View)>
+`;

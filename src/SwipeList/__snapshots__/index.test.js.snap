@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List renders correctly 1`] = `
+<Styled(View)
+  flexGrow={1}
+  flexShrink={1}
+  position="relative"
+>
+  <SwipeListView
+    closeOnRowBeginSwipe={false}
+    closeOnRowOpen={true}
+    closeOnRowPress={true}
+    closeOnScroll={true}
+    directionalDistanceChangeThreshold={2}
+    disableHiddenLayoutCalculation={false}
+    disableLeftSwipe={false}
+    disableRightSwipe={false}
+    leftOpenValue={0}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    previewFirstRow={false}
+    previewRepeat={false}
+    previewRepeatDelay={1000}
+    recalculateHiddenLayout={false}
+    rightOpenValue={0}
+    scrollEventThrottle={16}
+    showsVerticalScrollIndicator={false}
+    style={
+      Object {
+        "flexGrow": 1,
+      }
+    }
+    swipeToClosePercent={50}
+    swipeToOpenPercent={50}
+    swipeToOpenVelocityContribution={0}
+    useAnimatedList={false}
+    useNativeDriver={true}
+  />
+  <Scrollbar
+    height={0}
+    opacity={0}
+    positionRight="2px"
+    positionScroll={0}
+    width={3}
+  />
+</Styled(View)>
+`;
+
+exports[`List renders dark theme correctly 1`] = `
+<Styled(View)
+  flexGrow={1}
+  flexShrink={1}
+  position="relative"
+>
+  <SwipeListView
+    closeOnRowBeginSwipe={false}
+    closeOnRowOpen={true}
+    closeOnRowPress={true}
+    closeOnScroll={true}
+    directionalDistanceChangeThreshold={2}
+    disableHiddenLayoutCalculation={false}
+    disableLeftSwipe={false}
+    disableRightSwipe={false}
+    leftOpenValue={0}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    previewFirstRow={false}
+    previewRepeat={false}
+    previewRepeatDelay={1000}
+    recalculateHiddenLayout={false}
+    rightOpenValue={0}
+    scrollEventThrottle={16}
+    showsVerticalScrollIndicator={false}
+    style={
+      Object {
+        "flexGrow": 1,
+      }
+    }
+    swipeToClosePercent={50}
+    swipeToOpenPercent={50}
+    swipeToOpenVelocityContribution={0}
+    useAnimatedList={false}
+    useNativeDriver={true}
+  />
+  <Scrollbar
+    height={0}
+    opacity={0}
+    positionRight="2px"
+    positionScroll={0}
+    width={3}
+  />
+</Styled(View)>
+`;

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PaddedLayoutView renders correctly 1`] = `
+<Styled(View)
+  mx="8.333333333333332%"
+/>
+`;
+
+exports[`PaddedLayoutView renders correctly with columns specified 1`] = `
+<Styled(View)
+  mx="16.666666666666664%"
+/>
+`;
+
+exports[`PaddedLayoutView renders in landscape correctly 1`] = `
+<Styled(View)
+  mx="16.666666666666664%"
+/>
+`;

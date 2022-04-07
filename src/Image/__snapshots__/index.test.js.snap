@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image renders correctly 1`] = `
+<StyledNativeComponent
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "getSize": [Function],
+      "getSizeWithHeaders": [Function],
+      "inlineStyle": InlineStyle {
+        "rules": Array [
+          "
+  ",
+          [Function],
+          ";
+  ",
+          [Function],
+          ";
+  ",
+          [Function],
+          ";
+  ",
+          [Function],
+          ";
+  ",
+          [Function],
+          ";
+",
+        ],
+      },
+      "prefetch": [Function],
+      "prefetchWithMetadata": [Function],
+      "queryCache": [Function],
+      "render": [Function],
+      "resolveAssetSource": [Function],
+      "shouldForwardProp": undefined,
+      "styledComponentId": "StyledNativeComponent",
+      "target": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+/>
+`;

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Scrollbar renders correctly 1`] = `
+<Styled(View)
+  height="100%"
+  position="absolute"
+  py="5px"
+>
+  <Styled(Component)
+    backgroundColor="black"
+    borderRadius={8}
+    style={
+      Object {
+        "opacity": undefined,
+        "transform": Array [
+          Object {
+            "translateY": undefined,
+          },
+        ],
+      }
+    }
+  />
+</Styled(View)>
+`;

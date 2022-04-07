@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AnimatedV renders correctly 1`] = `
+<StyledNativeComponent
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "inlineStyle": InlineStyle {
+        "rules": Array [
+          "
+  ",
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          ";
+",
+        ],
+      },
+      "render": [Function],
+      "shouldForwardProp": undefined,
+      "styledComponentId": "StyledNativeComponent",
+      "target": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+/>
+`;
+
+exports[`V renders alignments correctly 1`] = `
+<View
+  alignContent="center"
+  alignItems="center"
+  justifyContent="center"
+  style={
+    Array [
+      Object {
+        "alignContent": "center",
+        "alignItems": "center",
+        "flexDirection": "column",
+        "justifyContent": "center",
+      },
+    ]
+  }
+/>
+`;
+
+exports[`V renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignContent": "flex-start",
+        "alignItems": "stretch",
+        "flexDirection": "column",
+        "justifyContent": "flex-start",
+      },
+    ]
+  }
+/>
+`;
+
+exports[`V renders row correctly 1`] = `
+<View
+  flexDirection="row"
+  style={
+    Array [
+      Object {
+        "alignContent": "flex-start",
+        "alignItems": "stretch",
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+      },
+    ]
+  }
+/>
+`;

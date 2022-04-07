@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cell Tablet renders center aligned correctly 1`] = `
+<View
+  align="center"
+  flexDirection="row"
+  justifyContent="center"
+  px={2}
+  py={2}
+  style={
+    Array [
+      Object {
+        "alignContent": "flex-start",
+        "alignItems": "stretch",
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "paddingBottom": 8,
+        "paddingLeft": 8,
+        "paddingRight": 8,
+        "paddingTop": 8,
+      },
+    ]
+  }
+>
+  Cell text
+</View>
+`;
+
+exports[`Cell Tablet renders correctly 1`] = `
+<View
+  flexDirection="row"
+  justifyContent="flex-start"
+  px={2}
+  py={2}
+  style={
+    Array [
+      Object {
+        "alignContent": "flex-start",
+        "alignItems": "stretch",
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+        "paddingBottom": 8,
+        "paddingLeft": 8,
+        "paddingRight": 8,
+        "paddingTop": 8,
+      },
+    ]
+  }
+>
+  Cell text
+</View>
+`;
+
+exports[`Cell Tablet renders right aligned correctly 1`] = `
+<View
+  align="right"
+  flexDirection="row"
+  justifyContent="flex-end"
+  px={2}
+  py={2}
+  style={
+    Array [
+      Object {
+        "alignContent": "flex-start",
+        "alignItems": "stretch",
+        "flexDirection": "row",
+        "justifyContent": "flex-end",
+        "paddingBottom": 8,
+        "paddingLeft": 8,
+        "paddingRight": 8,
+        "paddingTop": 8,
+      },
+    ]
+  }
+>
+  Cell text
+</View>
+`;
+
+exports[`Cell renders center aligned correctly 1`] = `
+<View
+  align="center"
+  flexDirection="row"
+  justifyContent="center"
+  px={2}
+  py={1}
+  style={
+    Array [
+      Object {
+        "alignContent": "flex-start",
+        "alignItems": "stretch",
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "paddingBottom": 4,
+        "paddingLeft": 8,
+        "paddingRight": 8,
+        "paddingTop": 4,
+      },
+    ]
+  }
+>
+  Cell text
+</View>
+`;
+
+exports[`Cell renders correctly 1`] = `
+<View
+  flexDirection="row"
+  justifyContent="flex-start"
+  px={2}
+  py={1}
+  style={
+    Array [
+      Object {
+        "alignContent": "flex-start",
+        "alignItems": "stretch",
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+        "paddingBottom": 4,
+        "paddingLeft": 8,
+        "paddingRight": 8,
+        "paddingTop": 4,
+      },
+    ]
+  }
+>
+  Cell text
+</View>
+`;
+
+exports[`Cell renders right aligned correctly 1`] = `
+<View
+  align="right"
+  flexDirection="row"
+  justifyContent="flex-end"
+  px={2}
+  py={1}
+  style={
+    Array [
+      Object {
+        "alignContent": "flex-start",
+        "alignItems": "stretch",
+        "flexDirection": "row",
+        "justifyContent": "flex-end",
+        "paddingBottom": 4,
+        "paddingLeft": 8,
+        "paddingRight": 8,
+        "paddingTop": 4,
+      },
+    ]
+  }
+>
+  Cell text
+</View>
+`;

@@ -1,0 +1,2132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal render renders correctly for darkTheme 1`] = `
+<ReactNativeModal
+  animationIn="slideInUp"
+  animationInTiming={300}
+  animationOut="slideOutDown"
+  animationOutTiming={300}
+  avoidKeyboard={true}
+  backdropColor="#3e677a"
+  backdropOpacity={0.45}
+  backdropTransitionInTiming={300}
+  backdropTransitionOutTiming={0}
+  coverScreen={true}
+  customBackdrop={null}
+  deviceHeight={null}
+  deviceWidth={null}
+  hasBackdrop={true}
+  hideModalContentWhileAnimating={false}
+  isVisible={false}
+  onBackButtonPress={[Function]}
+  onBackdropPress={[MockFunction]}
+  onModalHide={[Function]}
+  onModalShow={[Function]}
+  onModalWillHide={[Function]}
+  onModalWillShow={[Function]}
+  panResponderThreshold={4}
+  propagateSwipe={false}
+  scrollHorizontal={false}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  statusBarTranslucent={false}
+  style={
+    Object {
+      "justifyContent": "flex-end",
+      "marginBottom": 0,
+      "marginLeft": 12,
+      "marginRight": 12,
+      "marginTop": 0,
+    }
+  }
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  useNativeDriver={true}
+  useNativeDriverForBackdrop={true}
+>
+  <ConditionalWrapper
+    condition={false}
+    wrapper={[Function]}
+  >
+    <Styled(View)
+      bg="white"
+      borderBottomLeftRadius={0}
+      borderBottomRightRadius={0}
+      borderTopLeftRadius={20}
+      borderTopRightRadius={20}
+      maxHeight="100%"
+      overflow="hidden"
+      pb={1}
+      width="100%"
+    >
+      <Styled(View)
+        alignItems="center"
+        borderBottomWidth={1}
+        borderColor="secondaries.2"
+        flexDirection="row"
+        justifyContent="space-between"
+        px={2}
+      >
+        <Btn
+          flat={true}
+          icon="close"
+          medium={true}
+          ml={0}
+          onPress={[MockFunction]}
+          round={true}
+        />
+        <Styled(Text)
+          allowFontScaling={false}
+          color="text"
+          fontSize={9}
+          py={1}
+          semibold={true}
+          style={
+            Object {
+              "flexGrow": 1,
+            }
+          }
+          textAlign="center"
+          theme={
+            Object {
+              "colors": Object {
+                "black": "#000000",
+                "blacks": Array [],
+                "blueberries": Array [],
+                "blueberry": "#572381",
+                "bluegrey": "#4c626c",
+                "bluegreys": Array [],
+                "danger": "#d20000",
+                "dangerText": "#ffffff",
+                "dangers": Array [],
+                "info": "#005aa3",
+                "infoText": "#ffffff",
+                "infos": Array [],
+                "lime": "#a4b123",
+                "limes": Array [],
+                "primaries": Array [],
+                "primary": "#c20000",
+                "primaryText": "#ffffff",
+                "red": "#c20000",
+                "reds": Array [],
+                "sea": "#152773",
+                "seas": Array [],
+                "secondaries": Array [],
+                "secondary": "#4c626c",
+                "secondaryAccent": "#4c626c",
+                "secondaryAccentText": "#ffffff",
+                "skies": Array [],
+                "sky": "#005aa3",
+                "success": "#037d04",
+                "successText": "#ffffff",
+                "successes": Array [],
+                "tangerine": "#e9600e",
+                "tangerines": Array [],
+                "text": "#111111",
+                "warning": "#F36E20",
+                "warningText": "#000000",
+                "warnings": Array [],
+                "white": "#ffffff",
+              },
+              "duration": Object {
+                "fast": "150ms",
+                "normal": "300ms",
+                "slow": "450ms",
+                "slowest": "600ms",
+              },
+              "fontSizes": Array [],
+              "fontWeights": Object {
+                "bold": 700,
+                "light": 300,
+                "medium": 500,
+                "normal": 400,
+                "semibold": 600,
+              },
+              "lineHeights": Object {
+                "display": "20px",
+                "standard": "22px",
+              },
+              "radii": Array [],
+              "radius": "2px",
+              "radiusRounded": "290486px",
+              "shadows": Array [],
+              "space": Array [],
+              "spacer": 16,
+              "timingFunctions": Object {
+                "easeIn": "cubic-bezier(0.5, 0, 1, 1)",
+                "easeInOut": "cubic-bezier(0.5, 0, 0.25, 1)",
+                "easeOut": "cubic-bezier(0, 0, 0.25, 1)",
+              },
+              "transitionDelays": Object {
+                "large": "260ms",
+                "medium": "160ms",
+                "small": "60ms",
+                "xLarge": "360ms",
+              },
+            }
+          }
+        >
+          Test title
+        </Styled(Text)>
+        <Btn
+          flat={true}
+          mr={0}
+          onPress={[MockFunction]}
+          round={true}
+          secondary={true}
+        >
+          Reset
+        </Btn>
+      </Styled(View)>
+      <CustomScrollView
+        enableResetScrollToCoords={true}
+        extraScrollHeight={-100}
+        keyboardShouldPersistTaps="handled"
+        nestedScrollEnabled={true}
+      >
+        <Styled(View)
+          flex={1}
+        />
+      </CustomScrollView>
+      <Styled(View)
+        borderColor="secondaries.2"
+        borderTopWidth={1}
+        pt={1}
+      >
+        <Btn
+          black={false}
+          flat={true}
+          medium={true}
+          mx={2}
+          onPress={[MockFunction]}
+          secondary={true}
+        >
+          Close
+        </Btn>
+      </Styled(View)>
+    </Styled(View)>
+  </ConditionalWrapper>
+</ReactNativeModal>
+`;
+
+exports[`Modal render renders correctly for fullscreen with status bar hidden 1`] = `
+<ReactNativeModal
+  animationIn="slideInUp"
+  animationInTiming={300}
+  animationOut="slideOutDown"
+  animationOutTiming={300}
+  avoidKeyboard={true}
+  backdropColor="#000000"
+  backdropOpacity={0.45}
+  backdropTransitionInTiming={300}
+  backdropTransitionOutTiming={0}
+  coverScreen={false}
+  customBackdrop={null}
+  deviceHeight={null}
+  deviceWidth={null}
+  hasBackdrop={true}
+  hideModalContentWhileAnimating={false}
+  isVisible={false}
+  onBackButtonPress={[Function]}
+  onBackdropPress={[MockFunction]}
+  onModalHide={[Function]}
+  onModalShow={[Function]}
+  onModalWillHide={[Function]}
+  onModalWillShow={[Function]}
+  panResponderThreshold={4}
+  propagateSwipe={false}
+  scrollHorizontal={false}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  statusBarTranslucent={false}
+  style={
+    Object {
+      "justifyContent": "flex-end",
+      "marginBottom": 0,
+      "marginLeft": 12,
+      "marginRight": 12,
+      "marginTop": 0,
+    }
+  }
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  useNativeDriver={true}
+  useNativeDriverForBackdrop={true}
+>
+  <ConditionalWrapper
+    condition={false}
+    wrapper={[Function]}
+  >
+    <Styled(View)
+      bg="white"
+      borderBottomLeftRadius={0}
+      borderBottomRightRadius={0}
+      borderTopLeftRadius={20}
+      borderTopRightRadius={20}
+      maxHeight="100%"
+      overflow="hidden"
+      pb={1}
+      width="100%"
+    >
+      <Styled(View)
+        alignItems="center"
+        borderBottomWidth={1}
+        borderColor="secondaries.2"
+        flexDirection="row"
+        justifyContent="space-between"
+        px={2}
+      >
+        <Btn
+          flat={true}
+          icon="close"
+          medium={true}
+          ml={0}
+          onPress={[MockFunction]}
+          round={true}
+        />
+        <Styled(Text)
+          allowFontScaling={false}
+          color="text"
+          fontSize={9}
+          py={1}
+          semibold={true}
+          style={
+            Object {
+              "flexGrow": 1,
+            }
+          }
+          textAlign="center"
+          theme={
+            Object {
+              "colors": Object {
+                "black": "#000000",
+                "blacks": Array [],
+                "blueberries": Array [],
+                "blueberry": "#572381",
+                "bluegrey": "#4c626c",
+                "bluegreys": Array [],
+                "danger": "#d20000",
+                "dangerText": "#ffffff",
+                "dangers": Array [],
+                "info": "#005aa3",
+                "infoText": "#ffffff",
+                "infos": Array [],
+                "lime": "#a4b123",
+                "limes": Array [],
+                "primaries": Array [],
+                "primary": "#c20000",
+                "primaryText": "#ffffff",
+                "red": "#c20000",
+                "reds": Array [],
+                "sea": "#152773",
+                "seas": Array [],
+                "secondaries": Array [],
+                "secondary": "#4c626c",
+                "secondaryAccent": "#4c626c",
+                "secondaryAccentText": "#ffffff",
+                "skies": Array [],
+                "sky": "#005aa3",
+                "success": "#037d04",
+                "successText": "#ffffff",
+                "successes": Array [],
+                "tangerine": "#e9600e",
+                "tangerines": Array [],
+                "text": "#111111",
+                "warning": "#F36E20",
+                "warningText": "#000000",
+                "warnings": Array [],
+                "white": "#ffffff",
+              },
+              "duration": Object {
+                "fast": "150ms",
+                "normal": "300ms",
+                "slow": "450ms",
+                "slowest": "600ms",
+              },
+              "fontSizes": Array [],
+              "fontWeights": Object {
+                "bold": 700,
+                "light": 300,
+                "medium": 500,
+                "normal": 400,
+                "semibold": 600,
+              },
+              "lineHeights": Object {
+                "display": "20px",
+                "standard": "22px",
+              },
+              "radii": Array [],
+              "radius": "2px",
+              "radiusRounded": "290486px",
+              "shadows": Array [],
+              "space": Array [],
+              "spacer": 16,
+              "timingFunctions": Object {
+                "easeIn": "cubic-bezier(0.5, 0, 1, 1)",
+                "easeInOut": "cubic-bezier(0.5, 0, 0.25, 1)",
+                "easeOut": "cubic-bezier(0, 0, 0.25, 1)",
+              },
+              "transitionDelays": Object {
+                "large": "260ms",
+                "medium": "160ms",
+                "small": "60ms",
+                "xLarge": "360ms",
+              },
+            }
+          }
+        >
+          Test title
+        </Styled(Text)>
+        <Btn
+          flat={true}
+          mr={0}
+          onPress={[MockFunction]}
+          round={true}
+          secondary={true}
+        >
+          Reset
+        </Btn>
+      </Styled(View)>
+      <CustomScrollView
+        enableResetScrollToCoords={true}
+        extraScrollHeight={-100}
+        keyboardShouldPersistTaps="handled"
+        nestedScrollEnabled={true}
+      >
+        <Styled(View)
+          flex={1}
+        />
+      </CustomScrollView>
+      <Styled(View)
+        borderColor="secondaries.2"
+        borderTopWidth={1}
+        pt={1}
+      >
+        <Btn
+          black={false}
+          flat={true}
+          medium={true}
+          mx={2}
+          onPress={[MockFunction]}
+          secondary={true}
+        >
+          Close
+        </Btn>
+      </Styled(View)>
+    </Styled(View)>
+  </ConditionalWrapper>
+</ReactNativeModal>
+`;
+
+exports[`Modal render renders correctly for lightTheme 1`] = `
+<ReactNativeModal
+  animationIn="slideInUp"
+  animationInTiming={300}
+  animationOut="slideOutDown"
+  animationOutTiming={300}
+  avoidKeyboard={true}
+  backdropColor="#000000"
+  backdropOpacity={0.45}
+  backdropTransitionInTiming={300}
+  backdropTransitionOutTiming={0}
+  coverScreen={true}
+  customBackdrop={null}
+  deviceHeight={null}
+  deviceWidth={null}
+  hasBackdrop={true}
+  hideModalContentWhileAnimating={false}
+  isVisible={false}
+  onBackButtonPress={[Function]}
+  onBackdropPress={[MockFunction]}
+  onModalHide={[Function]}
+  onModalShow={[Function]}
+  onModalWillHide={[Function]}
+  onModalWillShow={[Function]}
+  panResponderThreshold={4}
+  propagateSwipe={false}
+  scrollHorizontal={false}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  statusBarTranslucent={false}
+  style={
+    Object {
+      "justifyContent": "flex-end",
+      "marginBottom": 0,
+      "marginLeft": 12,
+      "marginRight": 12,
+      "marginTop": 0,
+    }
+  }
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  useNativeDriver={true}
+  useNativeDriverForBackdrop={true}
+>
+  <ConditionalWrapper
+    condition={false}
+    wrapper={[Function]}
+  >
+    <Styled(View)
+      bg="white"
+      borderBottomLeftRadius={0}
+      borderBottomRightRadius={0}
+      borderTopLeftRadius={20}
+      borderTopRightRadius={20}
+      maxHeight="100%"
+      overflow="hidden"
+      pb={1}
+      width="100%"
+    >
+      <Styled(View)
+        alignItems="center"
+        borderBottomWidth={1}
+        borderColor="secondaries.2"
+        flexDirection="row"
+        justifyContent="space-between"
+        px={2}
+      >
+        <Btn
+          flat={true}
+          icon="close"
+          medium={true}
+          ml={0}
+          onPress={[MockFunction]}
+          round={true}
+        />
+        <Styled(Text)
+          allowFontScaling={false}
+          color="text"
+          fontSize={9}
+          py={1}
+          semibold={true}
+          style={
+            Object {
+              "flexGrow": 1,
+            }
+          }
+          textAlign="center"
+          theme={
+            Object {
+              "colors": Object {
+                "black": "#000000",
+                "blacks": Array [],
+                "blueberries": Array [],
+                "blueberry": "#572381",
+                "bluegrey": "#4c626c",
+                "bluegreys": Array [],
+                "danger": "#d20000",
+                "dangerText": "#ffffff",
+                "dangers": Array [],
+                "info": "#005aa3",
+                "infoText": "#ffffff",
+                "infos": Array [],
+                "lime": "#a4b123",
+                "limes": Array [],
+                "primaries": Array [],
+                "primary": "#c20000",
+                "primaryText": "#ffffff",
+                "red": "#c20000",
+                "reds": Array [],
+                "sea": "#152773",
+                "seas": Array [],
+                "secondaries": Array [],
+                "secondary": "#4c626c",
+                "secondaryAccent": "#4c626c",
+                "secondaryAccentText": "#ffffff",
+                "skies": Array [],
+                "sky": "#005aa3",
+                "success": "#037d04",
+                "successText": "#ffffff",
+                "successes": Array [],
+                "tangerine": "#e9600e",
+                "tangerines": Array [],
+                "text": "#111111",
+                "warning": "#F36E20",
+                "warningText": "#000000",
+                "warnings": Array [],
+                "white": "#ffffff",
+              },
+              "duration": Object {
+                "fast": "150ms",
+                "normal": "300ms",
+                "slow": "450ms",
+                "slowest": "600ms",
+              },
+              "fontSizes": Array [],
+              "fontWeights": Object {
+                "bold": 700,
+                "light": 300,
+                "medium": 500,
+                "normal": 400,
+                "semibold": 600,
+              },
+              "lineHeights": Object {
+                "display": "20px",
+                "standard": "22px",
+              },
+              "radii": Array [],
+              "radius": "2px",
+              "radiusRounded": "290486px",
+              "shadows": Array [],
+              "space": Array [],
+              "spacer": 16,
+              "timingFunctions": Object {
+                "easeIn": "cubic-bezier(0.5, 0, 1, 1)",
+                "easeInOut": "cubic-bezier(0.5, 0, 0.25, 1)",
+                "easeOut": "cubic-bezier(0, 0, 0.25, 1)",
+              },
+              "transitionDelays": Object {
+                "large": "260ms",
+                "medium": "160ms",
+                "small": "60ms",
+                "xLarge": "360ms",
+              },
+            }
+          }
+        >
+          Test title
+        </Styled(Text)>
+        <Btn
+          flat={true}
+          mr={0}
+          onPress={[MockFunction]}
+          round={true}
+          secondary={true}
+        >
+          Reset
+        </Btn>
+      </Styled(View)>
+      <CustomScrollView
+        enableResetScrollToCoords={true}
+        extraScrollHeight={-100}
+        keyboardShouldPersistTaps="handled"
+        nestedScrollEnabled={true}
+      >
+        <Styled(View)
+          flex={1}
+        />
+      </CustomScrollView>
+      <Styled(View)
+        borderColor="secondaries.2"
+        borderTopWidth={1}
+        pt={1}
+      >
+        <Btn
+          black={false}
+          flat={true}
+          medium={true}
+          mx={2}
+          onPress={[MockFunction]}
+          secondary={true}
+        >
+          Close
+        </Btn>
+      </Styled(View)>
+    </Styled(View)>
+  </ConditionalWrapper>
+</ReactNativeModal>
+`;
+
+exports[`Modal render renders correctly on tablet (landscape) for lightTheme 1`] = `
+<ReactNativeModal
+  animationIn="slideInUp"
+  animationInTiming={300}
+  animationOut="slideOutDown"
+  animationOutTiming={300}
+  avoidKeyboard={true}
+  backdropColor="#000000"
+  backdropOpacity={0.45}
+  backdropTransitionInTiming={300}
+  backdropTransitionOutTiming={0}
+  coverScreen={true}
+  customBackdrop={null}
+  deviceHeight={null}
+  deviceWidth={null}
+  hasBackdrop={true}
+  hideModalContentWhileAnimating={false}
+  isVisible={false}
+  onBackButtonPress={[Function]}
+  onBackdropPress={[MockFunction]}
+  onModalHide={[Function]}
+  onModalShow={[Function]}
+  onModalWillHide={[Function]}
+  onModalWillShow={[Function]}
+  panResponderThreshold={4}
+  propagateSwipe={false}
+  scrollHorizontal={false}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  statusBarTranslucent={false}
+  style={
+    Object {
+      "justifyContent": "center",
+      "margin": 0,
+    }
+  }
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  useNativeDriver={true}
+  useNativeDriverForBackdrop={true}
+>
+  <ConditionalWrapper
+    condition={true}
+    wrapper={[Function]}
+  >
+    <Styled(View)
+      bg="white"
+      maxHeight="100%"
+      overflow="hidden"
+      pb={1}
+    >
+      <Styled(View)
+        alignItems="center"
+        borderBottomWidth={1}
+        borderColor="secondaries.2"
+        flexDirection="row"
+        justifyContent="space-between"
+        px={2}
+      >
+        <Styled(View)
+          width={60}
+        />
+        <Styled(Text)
+          allowFontScaling={false}
+          color="text"
+          fontSize={8}
+          py={2}
+          semibold={true}
+          style={
+            Object {
+              "flexGrow": 1,
+            }
+          }
+          textAlign="center"
+          theme={
+            Object {
+              "colors": Object {
+                "black": "#000000",
+                "blacks": Array [],
+                "blueberries": Array [],
+                "blueberry": "#572381",
+                "bluegrey": "#4c626c",
+                "bluegreys": Array [],
+                "danger": "#d20000",
+                "dangerText": "#ffffff",
+                "dangers": Array [],
+                "info": "#005aa3",
+                "infoText": "#ffffff",
+                "infos": Array [],
+                "lime": "#a4b123",
+                "limes": Array [],
+                "primaries": Array [],
+                "primary": "#c20000",
+                "primaryText": "#ffffff",
+                "red": "#c20000",
+                "reds": Array [],
+                "sea": "#152773",
+                "seas": Array [],
+                "secondaries": Array [],
+                "secondary": "#4c626c",
+                "secondaryAccent": "#4c626c",
+                "secondaryAccentText": "#ffffff",
+                "skies": Array [],
+                "sky": "#005aa3",
+                "success": "#037d04",
+                "successText": "#ffffff",
+                "successes": Array [],
+                "tangerine": "#e9600e",
+                "tangerines": Array [],
+                "text": "#111111",
+                "warning": "#F36E20",
+                "warningText": "#000000",
+                "warnings": Array [],
+                "white": "#ffffff",
+              },
+              "duration": Object {
+                "fast": "150ms",
+                "normal": "300ms",
+                "slow": "450ms",
+                "slowest": "600ms",
+              },
+              "fontSizes": Array [],
+              "fontWeights": Object {
+                "bold": 700,
+                "light": 300,
+                "medium": 500,
+                "normal": 400,
+                "semibold": 600,
+              },
+              "lineHeights": Object {
+                "display": "20px",
+                "standard": "22px",
+              },
+              "radii": Array [],
+              "radius": "2px",
+              "radiusRounded": "290486px",
+              "shadows": Array [],
+              "space": Array [],
+              "spacer": 16,
+              "timingFunctions": Object {
+                "easeIn": "cubic-bezier(0.5, 0, 1, 1)",
+                "easeInOut": "cubic-bezier(0.5, 0, 0.25, 1)",
+                "easeOut": "cubic-bezier(0, 0, 0.25, 1)",
+              },
+              "transitionDelays": Object {
+                "large": "260ms",
+                "medium": "160ms",
+                "small": "60ms",
+                "xLarge": "360ms",
+              },
+            }
+          }
+        >
+          Test title
+        </Styled(Text)>
+        <Btn
+          flat={true}
+          icon="close"
+          large={true}
+          mr={0}
+          onPress={[MockFunction]}
+          round={true}
+        />
+      </Styled(View)>
+      <CustomScrollView
+        enableResetScrollToCoords={true}
+        extraScrollHeight={-100}
+        keyboardShouldPersistTaps="handled"
+        nestedScrollEnabled={true}
+      >
+        <Styled(View)
+          flex={1}
+        />
+      </CustomScrollView>
+      <Styled(View)
+        borderColor="secondaries.2"
+        borderTopWidth={0}
+        pt={1}
+      >
+        <Btn
+          black={true}
+          flat={false}
+          mb={2}
+          medium={true}
+          mt={2}
+          mx={5}
+          onPress={[MockFunction]}
+          secondary={false}
+        >
+          Close
+        </Btn>
+      </Styled(View)>
+    </Styled(View)>
+  </ConditionalWrapper>
+</ReactNativeModal>
+`;
+
+exports[`Modal render renders correctly on tablet for lightTheme 1`] = `
+<ReactNativeModal
+  animationIn="slideInUp"
+  animationInTiming={300}
+  animationOut="slideOutDown"
+  animationOutTiming={300}
+  avoidKeyboard={true}
+  backdropColor="#000000"
+  backdropOpacity={0.45}
+  backdropTransitionInTiming={300}
+  backdropTransitionOutTiming={0}
+  coverScreen={true}
+  customBackdrop={null}
+  deviceHeight={null}
+  deviceWidth={null}
+  hasBackdrop={true}
+  hideModalContentWhileAnimating={false}
+  isVisible={false}
+  onBackButtonPress={[Function]}
+  onBackdropPress={[MockFunction]}
+  onModalHide={[Function]}
+  onModalShow={[Function]}
+  onModalWillHide={[Function]}
+  onModalWillShow={[Function]}
+  panResponderThreshold={4}
+  propagateSwipe={false}
+  scrollHorizontal={false}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  statusBarTranslucent={false}
+  style={
+    Object {
+      "justifyContent": "center",
+      "margin": 0,
+    }
+  }
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  useNativeDriver={true}
+  useNativeDriverForBackdrop={true}
+>
+  <ConditionalWrapper
+    condition={true}
+    wrapper={[Function]}
+  >
+    <Styled(View)
+      bg="white"
+      maxHeight="100%"
+      overflow="hidden"
+      pb={1}
+    >
+      <Styled(View)
+        alignItems="center"
+        borderBottomWidth={1}
+        borderColor="secondaries.2"
+        flexDirection="row"
+        justifyContent="space-between"
+        px={2}
+      >
+        <Styled(View)
+          width={60}
+        />
+        <Styled(Text)
+          allowFontScaling={false}
+          color="text"
+          fontSize={8}
+          py={2}
+          semibold={true}
+          style={
+            Object {
+              "flexGrow": 1,
+            }
+          }
+          textAlign="center"
+          theme={
+            Object {
+              "colors": Object {
+                "black": "#000000",
+                "blacks": Array [],
+                "blueberries": Array [],
+                "blueberry": "#572381",
+                "bluegrey": "#4c626c",
+                "bluegreys": Array [],
+                "danger": "#d20000",
+                "dangerText": "#ffffff",
+                "dangers": Array [],
+                "info": "#005aa3",
+                "infoText": "#ffffff",
+                "infos": Array [],
+                "lime": "#a4b123",
+                "limes": Array [],
+                "primaries": Array [],
+                "primary": "#c20000",
+                "primaryText": "#ffffff",
+                "red": "#c20000",
+                "reds": Array [],
+                "sea": "#152773",
+                "seas": Array [],
+                "secondaries": Array [],
+                "secondary": "#4c626c",
+                "secondaryAccent": "#4c626c",
+                "secondaryAccentText": "#ffffff",
+                "skies": Array [],
+                "sky": "#005aa3",
+                "success": "#037d04",
+                "successText": "#ffffff",
+                "successes": Array [],
+                "tangerine": "#e9600e",
+                "tangerines": Array [],
+                "text": "#111111",
+                "warning": "#F36E20",
+                "warningText": "#000000",
+                "warnings": Array [],
+                "white": "#ffffff",
+              },
+              "duration": Object {
+                "fast": "150ms",
+                "normal": "300ms",
+                "slow": "450ms",
+                "slowest": "600ms",
+              },
+              "fontSizes": Array [],
+              "fontWeights": Object {
+                "bold": 700,
+                "light": 300,
+                "medium": 500,
+                "normal": 400,
+                "semibold": 600,
+              },
+              "lineHeights": Object {
+                "display": "20px",
+                "standard": "22px",
+              },
+              "radii": Array [],
+              "radius": "2px",
+              "radiusRounded": "290486px",
+              "shadows": Array [],
+              "space": Array [],
+              "spacer": 16,
+              "timingFunctions": Object {
+                "easeIn": "cubic-bezier(0.5, 0, 1, 1)",
+                "easeInOut": "cubic-bezier(0.5, 0, 0.25, 1)",
+                "easeOut": "cubic-bezier(0, 0, 0.25, 1)",
+              },
+              "transitionDelays": Object {
+                "large": "260ms",
+                "medium": "160ms",
+                "small": "60ms",
+                "xLarge": "360ms",
+              },
+            }
+          }
+        >
+          Test title
+        </Styled(Text)>
+        <Btn
+          flat={true}
+          icon="close"
+          large={true}
+          mr={0}
+          onPress={[MockFunction]}
+          round={true}
+        />
+      </Styled(View)>
+      <CustomScrollView
+        enableResetScrollToCoords={true}
+        extraScrollHeight={-100}
+        keyboardShouldPersistTaps="handled"
+        nestedScrollEnabled={true}
+      >
+        <Styled(View)
+          flex={1}
+        />
+      </CustomScrollView>
+      <Styled(View)
+        borderColor="secondaries.2"
+        borderTopWidth={0}
+        pt={1}
+      >
+        <Btn
+          black={true}
+          flat={false}
+          mb={2}
+          medium={true}
+          mt={2}
+          mx={5}
+          onPress={[MockFunction]}
+          secondary={false}
+        >
+          Close
+        </Btn>
+      </Styled(View)>
+    </Styled(View)>
+  </ConditionalWrapper>
+</ReactNativeModal>
+`;
+
+exports[`Modal render renders correctly with custom button 1`] = `
+<ReactNativeModal
+  animationIn="slideInUp"
+  animationInTiming={300}
+  animationOut="slideOutDown"
+  animationOutTiming={300}
+  avoidKeyboard={true}
+  backdropColor="#000000"
+  backdropOpacity={0.45}
+  backdropTransitionInTiming={300}
+  backdropTransitionOutTiming={0}
+  coverScreen={true}
+  customBackdrop={null}
+  deviceHeight={null}
+  deviceWidth={null}
+  hasBackdrop={true}
+  hideModalContentWhileAnimating={false}
+  isVisible={false}
+  onBackButtonPress={[Function]}
+  onBackdropPress={[MockFunction]}
+  onModalHide={[Function]}
+  onModalShow={[Function]}
+  onModalWillHide={[Function]}
+  onModalWillShow={[Function]}
+  panResponderThreshold={4}
+  propagateSwipe={false}
+  scrollHorizontal={false}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  statusBarTranslucent={false}
+  style={
+    Object {
+      "justifyContent": "flex-end",
+      "marginBottom": 0,
+      "marginLeft": 12,
+      "marginRight": 12,
+      "marginTop": 0,
+    }
+  }
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  useNativeDriver={true}
+  useNativeDriverForBackdrop={true}
+>
+  <ConditionalWrapper
+    condition={false}
+    wrapper={[Function]}
+  >
+    <Styled(View)
+      bg="white"
+      borderBottomLeftRadius={0}
+      borderBottomRightRadius={0}
+      borderTopLeftRadius={20}
+      borderTopRightRadius={20}
+      maxHeight="100%"
+      overflow="hidden"
+      pb={1}
+      width="100%"
+    >
+      <Styled(View)
+        alignItems="center"
+        borderBottomWidth={1}
+        borderColor="secondaries.2"
+        flexDirection="row"
+        justifyContent="space-between"
+        px={2}
+      >
+        <Btn
+          flat={true}
+          icon="close"
+          medium={true}
+          ml={0}
+          onPress={[MockFunction]}
+          round={true}
+        />
+        <Styled(Text)
+          allowFontScaling={false}
+          color="text"
+          fontSize={9}
+          py={1}
+          semibold={true}
+          style={
+            Object {
+              "flexGrow": 1,
+            }
+          }
+          textAlign="center"
+          theme={
+            Object {
+              "colors": Object {
+                "black": "#000000",
+                "blacks": Array [],
+                "blueberries": Array [],
+                "blueberry": "#572381",
+                "bluegrey": "#4c626c",
+                "bluegreys": Array [],
+                "danger": "#d20000",
+                "dangerText": "#ffffff",
+                "dangers": Array [],
+                "info": "#005aa3",
+                "infoText": "#ffffff",
+                "infos": Array [],
+                "lime": "#a4b123",
+                "limes": Array [],
+                "primaries": Array [],
+                "primary": "#c20000",
+                "primaryText": "#ffffff",
+                "red": "#c20000",
+                "reds": Array [],
+                "sea": "#152773",
+                "seas": Array [],
+                "secondaries": Array [],
+                "secondary": "#4c626c",
+                "secondaryAccent": "#4c626c",
+                "secondaryAccentText": "#ffffff",
+                "skies": Array [],
+                "sky": "#005aa3",
+                "success": "#037d04",
+                "successText": "#ffffff",
+                "successes": Array [],
+                "tangerine": "#e9600e",
+                "tangerines": Array [],
+                "text": "#111111",
+                "warning": "#F36E20",
+                "warningText": "#000000",
+                "warnings": Array [],
+                "white": "#ffffff",
+              },
+              "duration": Object {
+                "fast": "150ms",
+                "normal": "300ms",
+                "slow": "450ms",
+                "slowest": "600ms",
+              },
+              "fontSizes": Array [],
+              "fontWeights": Object {
+                "bold": 700,
+                "light": 300,
+                "medium": 500,
+                "normal": 400,
+                "semibold": 600,
+              },
+              "lineHeights": Object {
+                "display": "20px",
+                "standard": "22px",
+              },
+              "radii": Array [],
+              "radius": "2px",
+              "radiusRounded": "290486px",
+              "shadows": Array [],
+              "space": Array [],
+              "spacer": 16,
+              "timingFunctions": Object {
+                "easeIn": "cubic-bezier(0.5, 0, 1, 1)",
+                "easeInOut": "cubic-bezier(0.5, 0, 0.25, 1)",
+                "easeOut": "cubic-bezier(0, 0, 0.25, 1)",
+              },
+              "transitionDelays": Object {
+                "large": "260ms",
+                "medium": "160ms",
+                "small": "60ms",
+                "xLarge": "360ms",
+              },
+            }
+          }
+        >
+          Test title
+        </Styled(Text)>
+        <Btn
+          flat={true}
+          mr={0}
+          onPress={[MockFunction]}
+          round={true}
+          secondary={true}
+        >
+          Reset
+        </Btn>
+      </Styled(View)>
+      <CustomScrollView
+        enableResetScrollToCoords={true}
+        extraScrollHeight={-100}
+        keyboardShouldPersistTaps="handled"
+        nestedScrollEnabled={true}
+      >
+        <Styled(View)
+          flex={1}
+        />
+      </CustomScrollView>
+      <Styled(View)
+        borderColor="secondaries.2"
+        borderTopWidth={1}
+        pt={1}
+      >
+        <Btn
+          black={false}
+          flat={true}
+          medium={true}
+          mx={2}
+          onPress={[MockFunction]}
+          secondary={true}
+        >
+          Close
+        </Btn>
+      </Styled(View)>
+      <Styled(View)
+        borderColor="secondaries.2"
+        borderTopWidth={1}
+        pt={1}
+      >
+        <Btn>
+          Custom button
+        </Btn>
+      </Styled(View)>
+    </Styled(View)>
+  </ConditionalWrapper>
+</ReactNativeModal>
+`;
+
+exports[`Modal render renders correctly with orientation landscape left 1`] = `
+<ReactNativeModal
+  animationIn="slideInUp"
+  animationInTiming={300}
+  animationOut="slideOutDown"
+  animationOutTiming={300}
+  avoidKeyboard={true}
+  backdropColor="#000000"
+  backdropOpacity={0.45}
+  backdropTransitionInTiming={300}
+  backdropTransitionOutTiming={0}
+  coverScreen={true}
+  customBackdrop={null}
+  deviceHeight={null}
+  deviceWidth={null}
+  hasBackdrop={true}
+  hideModalContentWhileAnimating={false}
+  isVisible={false}
+  onBackButtonPress={[Function]}
+  onBackdropPress={[MockFunction]}
+  onModalHide={[Function]}
+  onModalShow={[Function]}
+  onModalWillHide={[Function]}
+  onModalWillShow={[Function]}
+  panResponderThreshold={4}
+  propagateSwipe={false}
+  scrollHorizontal={false}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  statusBarTranslucent={false}
+  style={
+    Object {
+      "justifyContent": "flex-end",
+      "marginBottom": 0,
+      "marginLeft": 12,
+      "marginRight": 12,
+      "marginTop": 0,
+    }
+  }
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  useNativeDriver={true}
+  useNativeDriverForBackdrop={true}
+>
+  <ConditionalWrapper
+    condition={false}
+    wrapper={[Function]}
+  >
+    <Styled(View)
+      bg="white"
+      borderBottomLeftRadius={0}
+      borderBottomRightRadius={0}
+      borderTopLeftRadius={20}
+      borderTopRightRadius={20}
+      maxHeight="100%"
+      overflow="hidden"
+      pb={1}
+      width="100%"
+    >
+      <Styled(View)
+        alignItems="center"
+        borderBottomWidth={1}
+        borderColor="secondaries.2"
+        flexDirection="row"
+        justifyContent="space-between"
+        px={2}
+      >
+        <Btn
+          flat={true}
+          icon="close"
+          medium={true}
+          ml={0}
+          onPress={[MockFunction]}
+          round={true}
+        />
+        <Styled(Text)
+          allowFontScaling={false}
+          color="text"
+          fontSize={9}
+          py={1}
+          semibold={true}
+          style={
+            Object {
+              "flexGrow": 1,
+            }
+          }
+          textAlign="center"
+          theme={
+            Object {
+              "colors": Object {
+                "black": "#000000",
+                "blacks": Array [],
+                "blueberries": Array [],
+                "blueberry": "#572381",
+                "bluegrey": "#4c626c",
+                "bluegreys": Array [],
+                "danger": "#d20000",
+                "dangerText": "#ffffff",
+                "dangers": Array [],
+                "info": "#005aa3",
+                "infoText": "#ffffff",
+                "infos": Array [],
+                "lime": "#a4b123",
+                "limes": Array [],
+                "primaries": Array [],
+                "primary": "#c20000",
+                "primaryText": "#ffffff",
+                "red": "#c20000",
+                "reds": Array [],
+                "sea": "#152773",
+                "seas": Array [],
+                "secondaries": Array [],
+                "secondary": "#4c626c",
+                "secondaryAccent": "#4c626c",
+                "secondaryAccentText": "#ffffff",
+                "skies": Array [],
+                "sky": "#005aa3",
+                "success": "#037d04",
+                "successText": "#ffffff",
+                "successes": Array [],
+                "tangerine": "#e9600e",
+                "tangerines": Array [],
+                "text": "#111111",
+                "warning": "#F36E20",
+                "warningText": "#000000",
+                "warnings": Array [],
+                "white": "#ffffff",
+              },
+              "duration": Object {
+                "fast": "150ms",
+                "normal": "300ms",
+                "slow": "450ms",
+                "slowest": "600ms",
+              },
+              "fontSizes": Array [],
+              "fontWeights": Object {
+                "bold": 700,
+                "light": 300,
+                "medium": 500,
+                "normal": 400,
+                "semibold": 600,
+              },
+              "lineHeights": Object {
+                "display": "20px",
+                "standard": "22px",
+              },
+              "radii": Array [],
+              "radius": "2px",
+              "radiusRounded": "290486px",
+              "shadows": Array [],
+              "space": Array [],
+              "spacer": 16,
+              "timingFunctions": Object {
+                "easeIn": "cubic-bezier(0.5, 0, 1, 1)",
+                "easeInOut": "cubic-bezier(0.5, 0, 0.25, 1)",
+                "easeOut": "cubic-bezier(0, 0, 0.25, 1)",
+              },
+              "transitionDelays": Object {
+                "large": "260ms",
+                "medium": "160ms",
+                "small": "60ms",
+                "xLarge": "360ms",
+              },
+            }
+          }
+        >
+          Test title
+        </Styled(Text)>
+        <Btn
+          flat={true}
+          mr={0}
+          onPress={[MockFunction]}
+          round={true}
+          secondary={true}
+        >
+          Reset
+        </Btn>
+      </Styled(View)>
+      <CustomScrollView
+        enableResetScrollToCoords={true}
+        extraScrollHeight={-100}
+        keyboardShouldPersistTaps="handled"
+        nestedScrollEnabled={true}
+      >
+        <Styled(View)
+          flex={1}
+        />
+      </CustomScrollView>
+      <Styled(View)
+        borderColor="secondaries.2"
+        borderTopWidth={1}
+        pt={1}
+      >
+        <Btn
+          black={false}
+          flat={true}
+          medium={true}
+          mx={2}
+          onPress={[MockFunction]}
+          secondary={true}
+        >
+          Close
+        </Btn>
+      </Styled(View)>
+    </Styled(View)>
+  </ConditionalWrapper>
+</ReactNativeModal>
+`;
+
+exports[`Modal render renders correctly with orientation portrait 1`] = `
+<ReactNativeModal
+  animationIn="slideInUp"
+  animationInTiming={300}
+  animationOut="slideOutDown"
+  animationOutTiming={300}
+  avoidKeyboard={true}
+  backdropColor="#000000"
+  backdropOpacity={0.45}
+  backdropTransitionInTiming={300}
+  backdropTransitionOutTiming={0}
+  coverScreen={true}
+  customBackdrop={null}
+  deviceHeight={null}
+  deviceWidth={null}
+  hasBackdrop={true}
+  hideModalContentWhileAnimating={false}
+  isVisible={false}
+  onBackButtonPress={[Function]}
+  onBackdropPress={[MockFunction]}
+  onModalHide={[Function]}
+  onModalShow={[Function]}
+  onModalWillHide={[Function]}
+  onModalWillShow={[Function]}
+  panResponderThreshold={4}
+  propagateSwipe={false}
+  scrollHorizontal={false}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  statusBarTranslucent={false}
+  style={
+    Object {
+      "justifyContent": "flex-end",
+      "marginBottom": 0,
+      "marginLeft": 0,
+      "marginRight": 0,
+      "marginTop": 0,
+    }
+  }
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  useNativeDriver={true}
+  useNativeDriverForBackdrop={true}
+>
+  <ConditionalWrapper
+    condition={false}
+    wrapper={[Function]}
+  >
+    <Styled(View)
+      bg="white"
+      borderBottomLeftRadius={0}
+      borderBottomRightRadius={0}
+      borderTopLeftRadius={20}
+      borderTopRightRadius={20}
+      maxHeight="100%"
+      overflow="hidden"
+      pb={1}
+      width="100%"
+    >
+      <Styled(View)
+        alignItems="center"
+        borderBottomWidth={1}
+        borderColor="secondaries.2"
+        flexDirection="row"
+        justifyContent="space-between"
+        px={2}
+      >
+        <Btn
+          flat={true}
+          icon="close"
+          medium={true}
+          ml={0}
+          onPress={[MockFunction]}
+          round={true}
+        />
+        <Styled(Text)
+          allowFontScaling={false}
+          color="text"
+          fontSize={9}
+          py={1}
+          semibold={true}
+          style={
+            Object {
+              "flexGrow": 1,
+            }
+          }
+          textAlign="center"
+          theme={
+            Object {
+              "colors": Object {
+                "black": "#000000",
+                "blacks": Array [],
+                "blueberries": Array [],
+                "blueberry": "#572381",
+                "bluegrey": "#4c626c",
+                "bluegreys": Array [],
+                "danger": "#d20000",
+                "dangerText": "#ffffff",
+                "dangers": Array [],
+                "info": "#005aa3",
+                "infoText": "#ffffff",
+                "infos": Array [],
+                "lime": "#a4b123",
+                "limes": Array [],
+                "primaries": Array [],
+                "primary": "#c20000",
+                "primaryText": "#ffffff",
+                "red": "#c20000",
+                "reds": Array [],
+                "sea": "#152773",
+                "seas": Array [],
+                "secondaries": Array [],
+                "secondary": "#4c626c",
+                "secondaryAccent": "#4c626c",
+                "secondaryAccentText": "#ffffff",
+                "skies": Array [],
+                "sky": "#005aa3",
+                "success": "#037d04",
+                "successText": "#ffffff",
+                "successes": Array [],
+                "tangerine": "#e9600e",
+                "tangerines": Array [],
+                "text": "#111111",
+                "warning": "#F36E20",
+                "warningText": "#000000",
+                "warnings": Array [],
+                "white": "#ffffff",
+              },
+              "duration": Object {
+                "fast": "150ms",
+                "normal": "300ms",
+                "slow": "450ms",
+                "slowest": "600ms",
+              },
+              "fontSizes": Array [],
+              "fontWeights": Object {
+                "bold": 700,
+                "light": 300,
+                "medium": 500,
+                "normal": 400,
+                "semibold": 600,
+              },
+              "lineHeights": Object {
+                "display": "20px",
+                "standard": "22px",
+              },
+              "radii": Array [],
+              "radius": "2px",
+              "radiusRounded": "290486px",
+              "shadows": Array [],
+              "space": Array [],
+              "spacer": 16,
+              "timingFunctions": Object {
+                "easeIn": "cubic-bezier(0.5, 0, 1, 1)",
+                "easeInOut": "cubic-bezier(0.5, 0, 0.25, 1)",
+                "easeOut": "cubic-bezier(0, 0, 0.25, 1)",
+              },
+              "transitionDelays": Object {
+                "large": "260ms",
+                "medium": "160ms",
+                "small": "60ms",
+                "xLarge": "360ms",
+              },
+            }
+          }
+        >
+          Test title
+        </Styled(Text)>
+        <Btn
+          flat={true}
+          mr={0}
+          onPress={[MockFunction]}
+          round={true}
+          secondary={true}
+        >
+          Reset
+        </Btn>
+      </Styled(View)>
+      <CustomScrollView
+        enableResetScrollToCoords={true}
+        extraScrollHeight={-100}
+        keyboardShouldPersistTaps="handled"
+        nestedScrollEnabled={true}
+      >
+        <Styled(View)
+          flex={1}
+        />
+      </CustomScrollView>
+      <Styled(View)
+        borderColor="secondaries.2"
+        borderTopWidth={1}
+        pt={1}
+      >
+        <Btn
+          black={false}
+          flat={true}
+          medium={true}
+          mx={2}
+          onPress={[MockFunction]}
+          secondary={true}
+        >
+          Close
+        </Btn>
+      </Styled(View)>
+    </Styled(View)>
+  </ConditionalWrapper>
+</ReactNativeModal>
+`;
+
+exports[`Modal render renders correctly without close label 1`] = `
+<ReactNativeModal
+  animationIn="slideInUp"
+  animationInTiming={300}
+  animationOut="slideOutDown"
+  animationOutTiming={300}
+  avoidKeyboard={true}
+  backdropColor="#000000"
+  backdropOpacity={0.45}
+  backdropTransitionInTiming={300}
+  backdropTransitionOutTiming={0}
+  coverScreen={true}
+  customBackdrop={null}
+  deviceHeight={null}
+  deviceWidth={null}
+  hasBackdrop={true}
+  hideModalContentWhileAnimating={false}
+  isVisible={false}
+  onBackButtonPress={[Function]}
+  onBackdropPress={[MockFunction]}
+  onModalHide={[Function]}
+  onModalShow={[Function]}
+  onModalWillHide={[Function]}
+  onModalWillShow={[Function]}
+  panResponderThreshold={4}
+  propagateSwipe={false}
+  scrollHorizontal={false}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  statusBarTranslucent={false}
+  style={
+    Object {
+      "justifyContent": "flex-end",
+      "marginBottom": 0,
+      "marginLeft": 12,
+      "marginRight": 12,
+      "marginTop": 0,
+    }
+  }
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  useNativeDriver={true}
+  useNativeDriverForBackdrop={true}
+>
+  <ConditionalWrapper
+    condition={false}
+    wrapper={[Function]}
+  >
+    <Styled(View)
+      bg="white"
+      borderBottomLeftRadius={0}
+      borderBottomRightRadius={0}
+      borderTopLeftRadius={20}
+      borderTopRightRadius={20}
+      maxHeight="100%"
+      overflow="hidden"
+      pb={1}
+      width="100%"
+    >
+      <Styled(View)
+        alignItems="center"
+        borderBottomWidth={1}
+        borderColor="secondaries.2"
+        flexDirection="row"
+        justifyContent="space-between"
+        px={2}
+      >
+        <Btn
+          flat={true}
+          icon="close"
+          medium={true}
+          ml={0}
+          onPress={[MockFunction]}
+          round={true}
+        />
+        <Styled(Text)
+          allowFontScaling={false}
+          color="text"
+          fontSize={9}
+          py={1}
+          semibold={true}
+          style={
+            Object {
+              "flexGrow": 1,
+            }
+          }
+          textAlign="center"
+          theme={
+            Object {
+              "colors": Object {
+                "black": "#000000",
+                "blacks": Array [],
+                "blueberries": Array [],
+                "blueberry": "#572381",
+                "bluegrey": "#4c626c",
+                "bluegreys": Array [],
+                "danger": "#d20000",
+                "dangerText": "#ffffff",
+                "dangers": Array [],
+                "info": "#005aa3",
+                "infoText": "#ffffff",
+                "infos": Array [],
+                "lime": "#a4b123",
+                "limes": Array [],
+                "primaries": Array [],
+                "primary": "#c20000",
+                "primaryText": "#ffffff",
+                "red": "#c20000",
+                "reds": Array [],
+                "sea": "#152773",
+                "seas": Array [],
+                "secondaries": Array [],
+                "secondary": "#4c626c",
+                "secondaryAccent": "#4c626c",
+                "secondaryAccentText": "#ffffff",
+                "skies": Array [],
+                "sky": "#005aa3",
+                "success": "#037d04",
+                "successText": "#ffffff",
+                "successes": Array [],
+                "tangerine": "#e9600e",
+                "tangerines": Array [],
+                "text": "#111111",
+                "warning": "#F36E20",
+                "warningText": "#000000",
+                "warnings": Array [],
+                "white": "#ffffff",
+              },
+              "duration": Object {
+                "fast": "150ms",
+                "normal": "300ms",
+                "slow": "450ms",
+                "slowest": "600ms",
+              },
+              "fontSizes": Array [],
+              "fontWeights": Object {
+                "bold": 700,
+                "light": 300,
+                "medium": 500,
+                "normal": 400,
+                "semibold": 600,
+              },
+              "lineHeights": Object {
+                "display": "20px",
+                "standard": "22px",
+              },
+              "radii": Array [],
+              "radius": "2px",
+              "radiusRounded": "290486px",
+              "shadows": Array [],
+              "space": Array [],
+              "spacer": 16,
+              "timingFunctions": Object {
+                "easeIn": "cubic-bezier(0.5, 0, 1, 1)",
+                "easeInOut": "cubic-bezier(0.5, 0, 0.25, 1)",
+                "easeOut": "cubic-bezier(0, 0, 0.25, 1)",
+              },
+              "transitionDelays": Object {
+                "large": "260ms",
+                "medium": "160ms",
+                "small": "60ms",
+                "xLarge": "360ms",
+              },
+            }
+          }
+        >
+          Test title
+        </Styled(Text)>
+        <Btn
+          flat={true}
+          mr={0}
+          onPress={[MockFunction]}
+          round={true}
+          secondary={true}
+        >
+          Reset
+        </Btn>
+      </Styled(View)>
+      <CustomScrollView
+        enableResetScrollToCoords={true}
+        extraScrollHeight={-100}
+        keyboardShouldPersistTaps="handled"
+        nestedScrollEnabled={true}
+      >
+        <Styled(View)
+          flex={1}
+        />
+      </CustomScrollView>
+      <Styled(View)
+        borderColor="secondaries.2"
+        borderTopWidth={1}
+        pt={1}
+      >
+        <Btn
+          black={false}
+          flat={true}
+          medium={true}
+          mx={2}
+          onPress={[MockFunction]}
+          secondary={true}
+        >
+          Close
+        </Btn>
+      </Styled(View)>
+    </Styled(View)>
+  </ConditionalWrapper>
+</ReactNativeModal>
+`;
+
+exports[`Modal render renders correctly without reset 1`] = `
+<ReactNativeModal
+  animationIn="slideInUp"
+  animationInTiming={300}
+  animationOut="slideOutDown"
+  animationOutTiming={300}
+  avoidKeyboard={true}
+  backdropColor="#000000"
+  backdropOpacity={0.45}
+  backdropTransitionInTiming={300}
+  backdropTransitionOutTiming={0}
+  coverScreen={true}
+  customBackdrop={null}
+  deviceHeight={null}
+  deviceWidth={null}
+  hasBackdrop={true}
+  hideModalContentWhileAnimating={false}
+  isVisible={false}
+  onBackButtonPress={[Function]}
+  onBackdropPress={[MockFunction]}
+  onModalHide={[Function]}
+  onModalShow={[Function]}
+  onModalWillHide={[Function]}
+  onModalWillShow={[Function]}
+  panResponderThreshold={4}
+  propagateSwipe={false}
+  scrollHorizontal={false}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  statusBarTranslucent={false}
+  style={
+    Object {
+      "justifyContent": "flex-end",
+      "marginBottom": 0,
+      "marginLeft": 12,
+      "marginRight": 12,
+      "marginTop": 0,
+    }
+  }
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  useNativeDriver={true}
+  useNativeDriverForBackdrop={true}
+>
+  <ConditionalWrapper
+    condition={false}
+    wrapper={[Function]}
+  >
+    <Styled(View)
+      bg="white"
+      borderBottomLeftRadius={0}
+      borderBottomRightRadius={0}
+      borderTopLeftRadius={20}
+      borderTopRightRadius={20}
+      maxHeight="100%"
+      overflow="hidden"
+      pb={1}
+      width="100%"
+    >
+      <Styled(View)
+        alignItems="center"
+        borderBottomWidth={1}
+        borderColor="secondaries.2"
+        flexDirection="row"
+        justifyContent="space-between"
+        px={2}
+      >
+        <Btn
+          flat={true}
+          icon="close"
+          medium={true}
+          ml={0}
+          onPress={[MockFunction]}
+          round={true}
+        />
+        <Styled(Text)
+          allowFontScaling={false}
+          color="text"
+          fontSize={9}
+          py={1}
+          semibold={true}
+          style={
+            Object {
+              "flexGrow": 1,
+            }
+          }
+          textAlign="center"
+          theme={
+            Object {
+              "colors": Object {
+                "black": "#000000",
+                "blacks": Array [],
+                "blueberries": Array [],
+                "blueberry": "#572381",
+                "bluegrey": "#4c626c",
+                "bluegreys": Array [],
+                "danger": "#d20000",
+                "dangerText": "#ffffff",
+                "dangers": Array [],
+                "info": "#005aa3",
+                "infoText": "#ffffff",
+                "infos": Array [],
+                "lime": "#a4b123",
+                "limes": Array [],
+                "primaries": Array [],
+                "primary": "#c20000",
+                "primaryText": "#ffffff",
+                "red": "#c20000",
+                "reds": Array [],
+                "sea": "#152773",
+                "seas": Array [],
+                "secondaries": Array [],
+                "secondary": "#4c626c",
+                "secondaryAccent": "#4c626c",
+                "secondaryAccentText": "#ffffff",
+                "skies": Array [],
+                "sky": "#005aa3",
+                "success": "#037d04",
+                "successText": "#ffffff",
+                "successes": Array [],
+                "tangerine": "#e9600e",
+                "tangerines": Array [],
+                "text": "#111111",
+                "warning": "#F36E20",
+                "warningText": "#000000",
+                "warnings": Array [],
+                "white": "#ffffff",
+              },
+              "duration": Object {
+                "fast": "150ms",
+                "normal": "300ms",
+                "slow": "450ms",
+                "slowest": "600ms",
+              },
+              "fontSizes": Array [],
+              "fontWeights": Object {
+                "bold": 700,
+                "light": 300,
+                "medium": 500,
+                "normal": 400,
+                "semibold": 600,
+              },
+              "lineHeights": Object {
+                "display": "20px",
+                "standard": "22px",
+              },
+              "radii": Array [],
+              "radius": "2px",
+              "radiusRounded": "290486px",
+              "shadows": Array [],
+              "space": Array [],
+              "spacer": 16,
+              "timingFunctions": Object {
+                "easeIn": "cubic-bezier(0.5, 0, 1, 1)",
+                "easeInOut": "cubic-bezier(0.5, 0, 0.25, 1)",
+                "easeOut": "cubic-bezier(0, 0, 0.25, 1)",
+              },
+              "transitionDelays": Object {
+                "large": "260ms",
+                "medium": "160ms",
+                "small": "60ms",
+                "xLarge": "360ms",
+              },
+            }
+          }
+        >
+          Test title
+        </Styled(Text)>
+        <Btn
+          flat={true}
+          mr={0}
+          round={true}
+        />
+      </Styled(View)>
+      <CustomScrollView
+        enableResetScrollToCoords={true}
+        extraScrollHeight={-100}
+        keyboardShouldPersistTaps="handled"
+        nestedScrollEnabled={true}
+      >
+        <Styled(View)
+          flex={1}
+        />
+      </CustomScrollView>
+      <Styled(View)
+        borderColor="secondaries.2"
+        borderTopWidth={1}
+        pt={1}
+      >
+        <Btn
+          black={false}
+          flat={true}
+          medium={true}
+          mx={2}
+          onPress={[MockFunction]}
+          secondary={true}
+        >
+          Close
+        </Btn>
+      </Styled(View)>
+    </Styled(View)>
+  </ConditionalWrapper>
+</ReactNativeModal>
+`;

@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List renders correctly 1`] = `
+<Styled(View)
+  flexGrow={1}
+  flexShrink={1}
+  position="relative"
+>
+  <Styled(Component)
+    data={
+      Array [
+        Object {
+          "id": "bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
+          "title": "First Item",
+        },
+        Object {
+          "id": "3ac68afc-c605-48d3-a4f8-fbd91aa97f63",
+          "title": "Second Item",
+        },
+        Object {
+          "id": "58694a0f-3da1-471f-bd96-145571e29d72",
+          "title": "Third Item",
+        },
+      ]
+    }
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    renderItem={[Function]}
+    scrollEventThrottle={16}
+    showsVerticalScrollIndicator={false}
+    style={
+      Object {
+        "flexGrow": 1,
+      }
+    }
+  />
+  <Scrollbar
+    height={0}
+    opacity={0}
+    positionRight="2px"
+    positionScroll={0}
+    width={3}
+  />
+</Styled(View)>
+`;
+
+exports[`List renders dark theme correctly 1`] = `
+<Styled(View)
+  flexGrow={1}
+  flexShrink={1}
+  position="relative"
+>
+  <Styled(Component)
+    data={
+      Array [
+        Object {
+          "id": "bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
+          "title": "First Item",
+        },
+        Object {
+          "id": "3ac68afc-c605-48d3-a4f8-fbd91aa97f63",
+          "title": "Second Item",
+        },
+        Object {
+          "id": "58694a0f-3da1-471f-bd96-145571e29d72",
+          "title": "Third Item",
+        },
+      ]
+    }
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    renderItem={[Function]}
+    scrollEventThrottle={16}
+    showsVerticalScrollIndicator={false}
+    style={
+      Object {
+        "flexGrow": 1,
+      }
+    }
+  />
+  <Scrollbar
+    height={0}
+    opacity={0}
+    positionRight="2px"
+    positionScroll={0}
+    width={3}
+  />
+</Styled(View)>
+`;

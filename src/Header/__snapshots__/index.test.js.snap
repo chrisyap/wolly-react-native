@@ -1,0 +1,194 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Mobile renders correctly 1`] = `
+<Styled(View)
+  bg="secondaries.0"
+  p={0}
+>
+  <StatusBar
+    backgroundColor="#eef0f1"
+    barStyle="dark-content"
+  />
+  <Styled(View)>
+    <Styled(View)
+      flexDirection="row"
+      pb="4px"
+      px={1}
+    >
+      <Styled(View)
+        alignItems="flex-start"
+        justifyContent="center"
+        minWidth="60px"
+      />
+      <Styled(View)
+        alignItems="center"
+        flexGrow={1}
+        flexShrink={1}
+        justifyContent="center"
+        mx={2}
+      >
+        App title
+      </Styled(View)>
+      <Styled(View)
+        alignItems="flex-end"
+        justifyContent="center"
+        minWidth="60px"
+      />
+    </Styled(View)>
+  </Styled(View)>
+</Styled(View)>
+`;
+
+exports[`Header Mobile renders with custom bg correctly 1`] = `
+<Styled(View)
+  bg="red"
+  p={0}
+>
+  <StatusBar
+    backgroundColor="#eef0f1"
+    barStyle="dark-content"
+  />
+  <Styled(View)>
+    <Styled(View)
+      flexDirection="row"
+      pb="4px"
+      px={1}
+    >
+      <Styled(View)
+        alignItems="flex-start"
+        justifyContent="center"
+        minWidth="60px"
+      />
+      <Styled(View)
+        alignItems="center"
+        flexGrow={1}
+        flexShrink={1}
+        justifyContent="center"
+        mx={2}
+      >
+        App title
+      </Styled(View)>
+      <Styled(View)
+        alignItems="flex-end"
+        justifyContent="center"
+        minWidth="60px"
+      />
+    </Styled(View)>
+  </Styled(View)>
+</Styled(View)>
+`;
+
+exports[`Header Mobile renders with dark theme correctly 1`] = `
+<Styled(View)
+  bg="secondaries.0"
+  p={0}
+>
+  <StatusBar
+    backgroundColor="#101213"
+    barStyle="light-content"
+  />
+  <Styled(View)>
+    <Styled(View)
+      flexDirection="row"
+      pb="4px"
+      px={1}
+    >
+      <Styled(View)
+        alignItems="flex-start"
+        justifyContent="center"
+        minWidth="60px"
+      />
+      <Styled(View)
+        alignItems="center"
+        flexGrow={1}
+        flexShrink={1}
+        justifyContent="center"
+        mx={2}
+      >
+        App title
+      </Styled(View)>
+      <Styled(View)
+        alignItems="flex-end"
+        justifyContent="center"
+        minWidth="60px"
+      />
+    </Styled(View)>
+  </Styled(View)>
+</Styled(View)>
+`;
+
+exports[`Header Mobile renders with no content correctly 1`] = `
+<Styled(View)
+  bg="secondaries.0"
+  p={0}
+>
+  <StatusBar
+    backgroundColor="#eef0f1"
+    barStyle="dark-content"
+  />
+  <Styled(View)>
+    <Styled(View)
+      flexDirection="row"
+      pb="4px"
+      px={1}
+    >
+      <Styled(View)
+        alignItems="flex-start"
+        justifyContent="center"
+        minWidth="60px"
+      />
+      <Styled(View)
+        alignItems="center"
+        flexGrow={1}
+        flexShrink={1}
+        justifyContent="center"
+        mx={2}
+      />
+      <Styled(View)
+        alignItems="flex-end"
+        justifyContent="center"
+        minWidth="60px"
+      />
+    </Styled(View)>
+  </Styled(View)>
+</Styled(View)>
+`;
+
+exports[`Header Tablet renders correctly 1`] = `
+<Styled(View)
+  bg="secondaries.0"
+  p={0}
+>
+  <StatusBar
+    backgroundColor="#eef0f1"
+    barStyle="dark-content"
+  />
+  <Styled(View)>
+    <Styled(View)
+      flexDirection="row"
+      pb={1}
+      px={1}
+    >
+      <Styled(View)
+        alignItems="flex-start"
+        justifyContent="center"
+        minWidth="60px"
+      />
+      <Styled(View)
+        alignItems="center"
+        flexGrow={1}
+        flexShrink={1}
+        justifyContent="center"
+        mx={2}
+      >
+        App title
+      </Styled(View)>
+      <Styled(View)
+        alignItems="flex-end"
+        justifyContent="center"
+        minWidth="60px"
+      />
+    </Styled(View)>
+  </Styled(View)>
+</Styled(View)>
+`;

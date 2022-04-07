@@ -1,0 +1,7 @@
+/coverage
+/example
+/storybook
+/unused
+/test
+# generated files by bob
+lib/

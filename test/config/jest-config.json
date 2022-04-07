@@ -1,0 +1,23 @@
+{
+  "rootDir": "../../",
+  "preset": "react-native",
+  "snapshotSerializers": ["enzyme-to-json/serializer"],
+  "collectCoverageFrom": ["**/*.{js,jsx,ts,tsx}", "!**/*.d.ts", "!**/node_modules/**"],
+  "modulePathIgnorePatterns": [
+    "<rootDir>/example",
+    "<rootDir>/lib",
+    "<rootDir>/unused",
+    "<rootDir>/storybook",
+    "<rootDir>/test",
+    "<rootDir>/lib/"
+  ],
+  "setupFiles": ["<rootDir>/test/config/setup.js"],
+  "collectCoverage": true,
+  "coverageDirectory": "<rootDir>/test/coverage",
+  "transform": {
+    "^.+\\.(t|j)sx?$": "<rootDir>/test/config/babel-transformer.js"
+  },
+  "transformIgnorePatterns": [
+    "node_modules/(?!(jest-)?(@react-native|react-native)|react-clone-referenced-element|@react-native-community|expo(nent)?|@expo(nent)?/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base)"
+  ]
+}

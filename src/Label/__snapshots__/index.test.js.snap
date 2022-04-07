@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Label renders correctly 1`] = `
+<ContextConsumer>
+  <Component />
+</ContextConsumer>
+`;
+
+exports[`Label renders with required prop correctly 1`] = `
+<ContextConsumer>
+  <Component />
+</ContextConsumer>
+`;
+
+exports[`Label renders with uppercase text correctly 1`] = `
+<ContextConsumer>
+  <Component />
+</ContextConsumer>
+`;
